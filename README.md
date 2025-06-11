@@ -1,5 +1,3 @@
-# BaAM-data-team
-
 ## Data Team Repository
 
 This repository serves as the central hub for all data-related work in the Behavioral Crime Pattern Modeling project. It is maintained by the Data & ML subteam and is primarily used to:
