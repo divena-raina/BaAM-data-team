@@ -25,4 +25,4 @@ df['WARD'] = df['WARD'].astype('Int64')
 df['PRECINCT'] = df['PRECINCT'].astype('Int64')
 
 # Save cleaned CSV
-df.to_csv("business_licenses_datasets/cleaned_business_licenses", index=False)
+df.to_csv("business_licenses_datasets/cleaned_business_licenses.csv", index=False)
