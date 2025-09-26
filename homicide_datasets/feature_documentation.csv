@@ -1,0 +1,3 @@
+Feature Name,Description,Data Type,Feature Transformation
+avg_shooting_count_30d,Average number of shootings in the community area in the 30 days prior to each shooting event,float64,30-day rolling count averaged per community area
+avg_handgun_shooting_ratio,Average proportion of shootings involving handguns in the community area over the last 30 days,float64,30-day rolling ratio averaged per community area
