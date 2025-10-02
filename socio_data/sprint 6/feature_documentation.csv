@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae181e8d04aee2a108d0bb73bdb2871e05454e4d98b6ae6f8c666be807493b15
-size 869
+Feature,Description,Data Type
+Community Area,Name of community area,str
+Pct_Housing_Crowded,% Housing crowded,float
+Pct_Below_Poverty,% Below poverty,float
+Pct_Unemployed,% Unemployed,float
+Pct_Without_HS_Diploma,% without high school,float
+Per_Capita_Income,Per capita income,float
+Hardship_Index,Hardship index,float
+Population - Total,Population,float
+Pct_Under_18,% Under 18,float
+Pct_Seniors_65plus,% 65+,float
+Gender_Ratio_Female_Male,Female to male ratio,float
+Pct_Black_Non_Latinx,% Black Non-Latinx,float
+Pct_Latinx,% Latinx,float
+Dependency_Ratio,Age dependency ratio,float
+Pop_Density,Population density,float
+Active_Business_Count,Active business licenses,float
+Retail_Business_Count,# of retail businesses,float
+Restaurant_Count,# of restaurants,float
+License_Type_Diversity,Unique license types,float
+Business_Per_1000,Businesses per 1000 residents,float
