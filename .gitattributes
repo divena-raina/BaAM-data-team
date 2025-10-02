@@ -1,1 +1,2 @@
 # Git LFS rules - removed CSV tracking to fix issues
+*.csv filter=lfs diff=lfs merge=lfs -text
