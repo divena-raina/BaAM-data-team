@@ -1,9 +1,3 @@
-feature_name,description,data_type
-active_businesses_per_1k,"Active licenses per 1,000 residents in year Y (if population available).",float
-new_licenses_per_1k,"New licenses per 1,000 residents in year Y (if population available).",float
-closures_per_1k,"License closures per 1,000 residents in year Y (if population available).",float
-nightlife_share,Share of ACTIVE licenses with nightlife keywords.,float (0-1)
-regulated_share,Share of ACTIVE licenses with regulated-goods keywords.,float (0-1)
-active_count,Raw number of ACTIVE licenses in year Y.,int
-new_count,Raw number of NEW licenses issued in year Y.,int
-closures_count,Raw number of licenses that expired in year Y.,int
+version https://git-lfs.github.com/spec/v1
+oid sha256:7310a85051c0ff85f3a60b06c8126db0020d8ad4db0f4bc663c605065d2a3c2b
+size 682

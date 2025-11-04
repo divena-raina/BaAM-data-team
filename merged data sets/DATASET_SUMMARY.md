@@ -11,7 +11,7 @@ This repository contains **organized datasets** for different analytical purpose
 
 ---
 
-## 📊 Dataset Comparison
+## Dataset Comparison
 
 | Dataset | Rows | Columns | Size | Purpose |
 |---------|------|---------|------|---------|
@@ -103,35 +103,33 @@ BaAM-data-team/
 │   │   ├── comprehensive_chicago_dataset.csv             # Comprehensive (all records)
 │   │   └── comprehensive_dataset_dictionary.csv          # Comprehensive dictionary
 │   ├── summary_statistics_by_year.csv                   # Annual summaries
-│   ├── create_aggregated_and_comprehensive_datasets.py  # Generation script
 │   └── DATASET_SUMMARY.md                               # This documentation
-└── [source data directories...]
 ```
 
 ---
 
-## 🔍 Data Quality Summary
+## Data Quality Summary
 
 ### Summary Statistics
-- ✅ **Complete coverage**: 2001-2025 (25 years)
-- ✅ **City-wide totals**: All of Chicago
-- ✅ **Simple format**: Easy to use
+- **Complete coverage**: 2001-2025 (25 years)
+- **City-wide totals**: All of Chicago
+- **Simple format**: Easy to use
 
 ### Aggregated Dataset (2012+)
-- ✅ **No missing values**: 100% complete
-- ✅ **No duplicates**: Unique by (community_area, year)
-- ✅ **Recent focus**: 2012-2025 only
-- ✅ **Shooting data included**: Full coverage
+- **No missing values**: 100% complete
+- **No duplicates**: Unique by (community_area, year)
+- **Recent focus**: 2012-2025 only
+- **Shooting data included**: Full coverage
 
 ### Comprehensive Dataset
-- ✅ **All individual records**: 281,753 total
-- ✅ **Dataset identifiers**: Easy filtering
-- ✅ **Record type classification**: Clear categorization
-- ✅ **Original fields preserved**: Maximum detail
+- **All individual records**: 281,753 total
+- **Dataset identifiers**: Easy filtering
+- **Record type classification**: Clear categorization
+- **Original fields preserved**: Maximum detail
 
 ---
 
-## 🚀 Usage Examples
+## Usage Examples
 
 ### For Time Series Analysis
 ```python
@@ -167,61 +165,3 @@ df = pd.read_csv('summary_statistics_by_year.csv')
 ```
 
 ---
-
-## 📈 Key Insights
-
-### Crime Patterns
-- **Peak Homicides**: 2021 (811 total)
-- **Peak Shootings**: 2023 (21,839 total)
-- **Most Active Areas**: Austin (Area 25), North Lawndale (Area 29)
-
-### Business Activity
-- **Business data starts**: 2021
-- **Peak licenses**: 2024 (23,723)
-- **Coverage**: All 77 community areas
-
-### Data Completeness
-- **Homicides**: 2001-2025 (complete)
-- **Shootings**: 2012-2025 (complete)
-- **Business**: 2021-2025 (recent)
-- **Population**: 2021-2025 (recent)
-- **Sociodemographics**: Static (2010 baseline)
-
----
-
-## 🛠️ Regeneration
-
-To recreate any dataset:
-```bash
-cd "merged data sets"
-python create_aggregated_and_comprehensive_datasets.py
-```
-
----
-
-## 📋 Next Steps
-
-1. **Choose the right dataset** for your analysis:
-   - Quick annual overview → Summary Statistics
-   - Recent analysis (2012+) → Aggregated dataset  
-   - Individual records → Comprehensive dataset
-
-2. **Exploratory Data Analysis**:
-   - Temporal patterns
-   - Geographic hotspots
-   - Correlation analysis
-
-3. **Predictive Modeling**:
-   - Crime forecasting
-   - Risk assessment
-   - Resource optimization
-
-4. **Visualization**:
-   - Interactive maps
-   - Time series charts
-   - Community profiles
-
----
-
-**Last Updated**: October 1, 2025  
-**Total Records**: 281,753 individual records across all datasets
