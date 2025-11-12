@@ -1,21 +1,17 @@
 # Sociodemographics Dataset - EDA Summary Report
 
-## 📊 Executive Summary
+## Executive Summary
 
 This comprehensive exploratory data analysis (EDA) was conducted on the sociodemographics dataset to uncover patterns, verify data quality, and inform feature selection and modeling strategies. The analysis covers 78 community areas across Chicago with 6 key sociodemographic variables.
 
----
-
-## 📋 Dataset Overview
+## Dataset Overview
 
 - **Size**: 78 rows × 7 columns (8.36 KB)
 - **Coverage**: All Chicago community areas
 - **Variables**: 6 numeric sociodemographic indicators + Community Area names
 - **Data Quality**: High (99.9% complete, 1 missing value in Hardship_Index)
 
----
-
-## 📈 Summary Statistics
+## Summary Statistics
 
 ### Key Metrics by Variable
 
@@ -33,9 +29,7 @@ This comprehensive exploratory data analysis (EDA) was conducted on the sociodem
 - **Kurtosis**: Moderate to high kurtosis indicates peaked distributions
 - **Income**: Highly skewed with extreme outliers (Near North Side: $88,669)
 
----
-
-## 🔗 Correlation Analysis
+## Correlation Analysis
 
 ### Strong Correlations (|r| > 0.5)
 
@@ -53,9 +47,7 @@ This comprehensive exploratory data analysis (EDA) was conducted on the sociodem
 | **Housing Crowded ↔ Per Capita Income** | -0.542 | Moderate negative - crowded housing predicts lower income |
 | **Below Poverty ↔ Per Capita Income** | -0.567 | Moderate negative - poverty predicts lower income |
 
----
-
-## 🎯 Outlier Analysis
+## Outlier Analysis
 
 ### Outlier Summary
 - **Total Outliers Detected**: 13 across 4 variables
@@ -80,9 +72,7 @@ This comprehensive exploratory data analysis (EDA) was conducted on the sociodem
 - **South Lawndale**: 15.2% crowded housing
 - **Humboldt Park**: 14.8% crowded housing
 
----
-
-## 🏘️ Geographic Patterns
+## Geographic Patterns
 
 ### Top Performing Areas (Low Hardship)
 1. **Near North Side** (Hardship: 1.0) - Gold Coast/Magnificent Mile
@@ -98,24 +88,22 @@ This comprehensive exploratory data analysis (EDA) was conducted on the sociodem
 4. **Englewood** (Hardship: 94.0) - South Side
 5. **Gage Park** (Hardship: 93.0) - Southwest Side
 
----
-
-## ✅ Data Quality Assessment
+## Data Quality Assessment
 
 ### Strengths
-- ✅ **Complete Coverage**: All 78 community areas included
-- ✅ **No Duplicates**: Clean dataset with unique records
-- ✅ **Valid Ranges**: All percentage values within 0-100%
-- ✅ **No Negative Values**: All values logically consistent
-- ✅ **High Completeness**: 99.9% complete (only 1 missing Hardship_Index value)
+- **Complete Coverage**: All 78 community areas included
+- **No Duplicates**: Clean dataset with unique records
+- **Valid Ranges**: All percentage values within 0-100%
+- **No Negative Values**: All values logically consistent
+- **High Completeness**: 99.9% complete (only 1 missing Hardship_Index value)
 
 ### Minor Issues
-- ⚠️ **Missing Value**: 1 missing Hardship_Index value (1.3%)
-- ⚠️ **Outliers**: 13 outliers across 4 variables (expected for socioeconomic data)
+- **Missing Value**: 1 missing Hardship_Index value (1.3%)
+- **Outliers**: 13 outliers across 4 variables (expected for socioeconomic data)
 
 ---
 
-## 🎯 Key Insights & Conclusions
+## Key Insights & Conclusions
 
 ### 1. **Strong Socioeconomic Clustering**
 - Clear geographic patterns of advantage/disadvantage
@@ -146,7 +134,7 @@ This comprehensive exploratory data analysis (EDA) was conducted on the sociodem
 
 ---
 
-## 🚀 Recommendations for Feature Selection & Modeling
+## Recommendations for Feature Selection & Modeling
 
 ### 1. **Feature Selection Strategy**
 - **Include All Variables**: Each provides unique information
@@ -166,9 +154,7 @@ This comprehensive exploratory data analysis (EDA) was conducted on the sociodem
 - **Policy Analysis**: Evaluate impact of socioeconomic programs
 - **Urban Planning**: Inform development and investment decisions
 
----
-
-## 📁 Generated Files
+## Generated Files
 
 ### Summary Statistics
 - `summary_statistics.csv` - Basic descriptive statistics
@@ -185,13 +171,8 @@ This comprehensive exploratory data analysis (EDA) was conducted on the sociodem
 - `outliers_analysis.csv` - Detailed outlier analysis
 - `eda_conclusions.csv` - Summary metrics and conclusions
 
----
-
-## 📊 Data Quality Score: **A+ (95/100)**
-
-**Rationale**: High-quality dataset with complete coverage, logical value ranges, minimal missing data, and clear geographic patterns. Minor deduction for 1 missing value and expected socioeconomic outliers.
-
----
+## Data Quality:
+High-quality dataset with complete coverage, logical value ranges, minimal missing data, and clear geographic patterns. Minor deduction for 1 missing value and expected socioeconomic outliers.
 
 **Analysis Completed**: October 2, 2025  
 **Dataset**: Sociodemographic Features by Area  
